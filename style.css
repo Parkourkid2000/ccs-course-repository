@@ -17,7 +17,7 @@ background-color: #cafdff;
 }
 
 header {
-background-color:#eadcff ;
+background-color:#eadcff;
 height: calc(100vh - 70px);
 padding: 24px;
 display: flex;
@@ -35,7 +35,7 @@ h1 {
 
 .subheader {
     font-size: 36px;
-    margin: 16px, 0 24px, 0;
+    margin: 16px 0 24px 0;
 
 
 }
@@ -99,10 +99,10 @@ h2 {
     margin-bottom: 24px;
 }
 
-.section_description {
+.section__description {
     display: flex;
     justify-content: center;
-align-items: center;
+    align-items: center;
 }
 
 .about__img--wrapper {
@@ -189,13 +189,20 @@ margin-bottom: 16px;
     .row {
         flex-direction: column;
     }
+
     .home__description {
         margin-bottom: 24px;
         display: flex;
         flex-direction: column;
         align-items: center;
+}
+
+header {
+    height: fit-content;
 
 }
+    
+
 
 .home__description__button {
     max-width: 240px;
